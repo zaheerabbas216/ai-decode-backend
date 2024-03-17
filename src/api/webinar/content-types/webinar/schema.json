@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webinars",
+  "info": {
+    "singularName": "webinar",
+    "pluralName": "webinars",
+    "displayName": "webinar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "webinar_name": {
+      "type": "string"
+    },
+    "webinar_date": {
+      "type": "datetime"
+    },
+    "webinar_location": {
+      "type": "string"
+    },
+    "webinar_overview": {
+      "type": "text"
+    },
+    "webinar_host_info": {
+      "type": "text"
+    },
+    "webinar_host_name": {
+      "type": "string"
+    },
+    "webinar_host_desig": {
+      "type": "string"
+    },
+    "webinar_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "webinar_price": {
+      "type": "string"
+    }
+  }
+}
